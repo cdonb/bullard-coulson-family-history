@@ -1,0 +1,15 @@
+{
+  "name": "word-to-html-converter",
+  "version": "1.0.0",
+  "description": "Automatically converts Word documents to HTML and manages them in GitHub",
+  "main": "converter.js",
+  "scripts": {
+    "start": "node converter.js"
+  },
+  "dependencies": {
+    "mammoth": "^1.6.0",
+    "chokidar": "^3.5.3",
+    "simple-git": "^3.22.0"
+  },
+  "type": "module"
+} 
