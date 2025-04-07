@@ -7,7 +7,7 @@ const __dirname = dirname(__filename);
 
 // Use the actual folder path instead of a symbolic link
 const inputDir = "/Users/donbullard/Library/CloudStorage/Dropbox/Don\'s\ documents/webpage-uploads";  // Your actual input folder path
-const outputDir = join(__dirname, 'output');
+const outputDir = join(__dirname, 'docs');
 
 // Ensure output directory exists
 await fs.mkdir(outputDir, { recursive: true });
