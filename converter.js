@@ -6,7 +6,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 // Use the actual folder path instead of a symbolic link
-const inputDir = "/Users/donbullard/Library/CloudStorage/Dropbox/Don\'s\ documents/webpage";  // Your actual input folder path
+const inputDir = "/Users/donbullard/Library/CloudStorage/Dropbox/Don\'s\ documents/webpage-uploads";  // Your actual input folder path
 const outputDir = join(__dirname, 'output');
 
 // Ensure output directory exists
